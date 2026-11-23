@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+:root {
+    --oscuro: #171a24;
+    --crema: #f8f4eb;
+    --lima: #d9ff57;
+    --violeta: #7560db;
+}
+
+
+body {
+    background-color: var(--crema);
+    color: var(--oscuro);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'DM Serif Display', serif;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2.6rem;
+}
+
+
+.navbar {
+    background-color: var(--oscuro);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.marca-punto {
+    color: var(--lima);
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: var(--lima);
+}
+
+
+.hero {
+    background-color: var(--oscuro);
+    color: white;
+}
+
+.hero h1 span {
+    color: var(--lima);
+}
+
+.hero .lead {
+    width: 100%;
+    font-size: 1.1rem;
+    margin-top: 24px;
+    margin-bottom: 28px;
+}
+
+.hero-pie {
+    margin-top: 65px;
+    font-size: 0.7rem;
+    color: #b7bac3;
+}
+
+.etiqueta {
+    color: var(--lima);
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.etiqueta.oscura {
+    color: var(--violeta);
+}
+
+
+.btn-acento {
+    background-color: var(--lima);
+    color: var(--oscuro);
+    border: 1px solid var(--lima);
+    font-weight: 700;
+    transition: background-color 0.3s;
+}
+
+.btn-acento:hover {
+    background-color: white;
+    color: var(--oscuro);
+    border-color: white;
+}
+
+/* SECCIÓN EXPERIENCIAS */
+
+.texto-corto {
+    font-size: 0.9rem;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 28px;
+    height: 100%;
+    transition: background-color 0.3s;
+}
+
+.tarjeta:hover {
+    background-color: #f0ebff;
+}
+
+.numero {
+    color: var(--violeta);
+    font-weight: 800;
+}
+
+.tarjeta h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.tarjeta p {
+    font-size: 0.9rem;
+}
+
+
+.agenda {
+    background-color: #e9e2ff;
+}
+
+.agenda strong {
+    font-size: 0.8rem;
+}
+
+.horario {
+    color: var(--violeta);
+    font-weight: 800;
+}
+
+
+.imagen-espacio {
+    width: 100%;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--oscuro);
+    color: white;
+}
+
+footer a {
+    color: var(--lima);
+    text-decoration: none;
+}
+
+
+.modal-content {
+    background-color: var(--crema);
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}

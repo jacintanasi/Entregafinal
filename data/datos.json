@@ -1,0 +1,20 @@
+[
+  {
+    "numero": "01",
+    "nombre": "Cerámica libre",
+    "descripcion": "Arcilla, formas imperfectas y una pieza hecha por vos.",
+    "detalle": "MANOS A LA OBRA ↗"
+  },
+  {
+    "numero": "02",
+    "nombre": "Collage experimental",
+    "descripcion": "Papeles, colores y nuevas ideas para mezclar sin reglas.",
+    "detalle": "PROBÁ ALGO NUEVO ↗"
+  },
+  {
+    "numero": "03",
+    "nombre": "Fotografía cotidiana",
+    "descripcion": "Aprendé a encontrar imágenes extraordinarias en lo simple.",
+    "detalle": "MIRÁ DISTINTO ↗"
+  }
+]
